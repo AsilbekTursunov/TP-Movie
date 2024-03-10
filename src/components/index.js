@@ -1,0 +1,7 @@
+export { default as App } from './app/app'
+export { default as Main } from './main/main'
+export { default as MovieInfo } from './channel/channel'
+export { default as Navbar } from './navbar/navbar' 
+export { default as VideoDetail } from './video-detail/video-detail'
+export { default as SearchBar } from './search-bar/search-bar'
+export { default as Category } from '../components/category/categories' 

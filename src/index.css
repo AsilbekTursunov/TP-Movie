@@ -1,13 +1,60 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+body{
+  overflow-x: hidden;
+  width: 100%; 
+  background-color: '#11242a';
+}
+::-webkit-scrollbar{
+  width: 0;
+  height: 3px; 
+}
+::-webkit-scrollbar-thumb{ 
+  background-color: #f2f3ed;
+  border-radius: .312rem;
+  height: 20px;
+}
+::-webkit-scrollbar-track{ 
+  background:transparent;
+}
+.filter-btn{   
+  border: 0px; 
+  background: transparent;
+}
+.btn-info{   
+  background-color: #bcc399;
+  padding:  .625rem 0;
+  justify-content: center;
+  display: flex;  
+} 
+.btn-name{
+  width: 150px;
+  display: block; 
+  padding: .312rem .625rem ;  
+}
+.filter-btn .btn-info{ 
+  color: #bcc399;
+  background-color:  #f2f3ed;
+}
+.filter-btn:hover .btn-info{
+  color: #151513;
+  background-color: #bcc399;
+}
+.progress{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  padding: .312rem;
+  border-radius: 50%;
+  color: white;  
+}
+.logo-name{ 
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 800;
+  font-style: normal;
+}  
