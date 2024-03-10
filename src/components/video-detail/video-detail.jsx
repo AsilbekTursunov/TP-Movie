@@ -10,7 +10,7 @@ const VideoDetail = ({ video, getId }) => {
 
   const sendVideo = (id) =>{
     getId(id)
-    navigate(`/channel/${id}`)
+    navigate(`/tp-movie/channel/${id}`)
   }
   return (
     <>

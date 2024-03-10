@@ -17,8 +17,8 @@ const App = () => {
     <Box width={'100%'}>
         <Navbar getFilter={getFilter}/>
         <Routes>
-            <Route path='/' element={<Main getId = {getId} filter={filter}/>}/>
-            <Route path='/channel/:id' element={<MovieInfo/>}/> 
+            <Route path='/tp-movie' element={<Main getId = {getId} filter={filter}/>}/>
+            <Route path='/tp-movie/channel/:id' element={<MovieInfo/>}/> 
         </Routes> 
     </Box>
   )
