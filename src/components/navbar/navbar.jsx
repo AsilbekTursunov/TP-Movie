@@ -6,17 +6,17 @@ import { colors } from '../constants/color'
 
 const Navbar = ({ getFilter }) => {
 
-  const navigate = useNavigate() 
+  // const navigate = useNavigate() 
 
-  const sendVideo = () =>{ 
-    navigate(`/tp-movie`)
-  }
+  // const sendVideo = () =>{ 
+  //   navigate(`/tp-movie`)
+  // }
 
   return (
     <Stack sx={{ backgroundColor: colors.primary }}>
       <Container>
         <Stack direction={'row'} justifyContent={'space-between'} alignItems={'center'} py={2}>
-          <Link href="#" onClick={()=>sendVideo} underline={'none'} style={{ textDecoration: 'none' }} >
+          <Link href="https://asilbektursunov.github.io/tp-movie/" underline={'none'} style={{ textDecoration: 'none' }} >
             <Typography className="logo-name" style={{ display: 'flex', alignItems: 'center ' }}>
               <img src="http://www.clipartbest.com/cliparts/xig/K4p/xigK4pojT.png" alt="logo" style={{ width: 50, marginRight: '1rem' }} />
               <Typography fontSize={{ xs: '25px',  md: '35px' }} fontFamily={'Cambria'} fontWeight={600} color={colors.textColor}>
