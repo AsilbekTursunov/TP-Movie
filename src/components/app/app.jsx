@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import { Box } from '@mui/material'
-import { Main, MovieInfo, Navbar, Search, Videos } from '../index' 
+import { Main, MovieInfo, Navbar} from '../index' 
 
 const App = () => {
   const [movie, setMovie] = useState(0)
