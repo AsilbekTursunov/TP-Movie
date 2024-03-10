@@ -9,7 +9,7 @@ const Navbar = ({ getFilter }) => {
   const navigate = useNavigate() 
 
   const sendVideo = () =>{ 
-    navigate(`/`)
+    navigate(`/tp-movie`)
   }
 
   return (
