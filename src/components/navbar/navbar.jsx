@@ -10,7 +10,7 @@ const Navbar = ({ getFilter }) => {
     <Stack sx={{ backgroundColor: colors.primary }}>
       <Container>
         <Stack direction={'row'} justifyContent={'space-between'} alignItems={'center'} py={2}>
-          <Link href="#" to={'/'} underline={'none'} style={{ textDecoration: 'none' }} >
+          <Link href="#" to={'/tp-movie'} underline={'none'} style={{ textDecoration: 'none' }} >
             <Typography className="logo-name" style={{ display: 'flex', alignItems: 'center ' }}>
               <img src="http://www.clipartbest.com/cliparts/xig/K4p/xigK4pojT.png" alt="logo" style={{ width: 50, marginRight: '1rem' }} />
               <Typography fontSize={{ xs: '25px',  md: '35px' }} fontFamily={'Cambria'} fontWeight={600} color={colors.textColor}>
